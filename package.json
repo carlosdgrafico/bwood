@@ -1,0 +1,35 @@
+{
+  "name": "bwood",
+  "version": "1.0.0",
+  "description": "taller de diseño",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlosdgrafico/bwood.git"
+  },
+  "author": "carlos fuentes diaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlosdgrafico/bwood/issues"
+  },
+  "homepage": "https://github.com/carlosdgrafico/bwood#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-pug": "^4.0.1",
+    "gulp-sass": "^4.0.1",
+    "gulp-uglify": "^3.0.0",
+    "gulp-watch": "^5.0.0",
+    "gulp-webserver": "^0.9.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3"
+  }
+}
