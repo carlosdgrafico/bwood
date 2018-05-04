@@ -1,9 +1,40 @@
 doctype html
 head
 	meta(charset="utf-8")
+	meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
 	title bwood - Cerebro y Madera
-	link(rel="stylesheet", href="css/main.css")
+	include templates/head
 body
 	include templates/header
-	h1 bwood - cerebro y madera
+	section.banner
+		.container
+			.row
+				.col-5
+					article.cta
+						h1.cta__titulo Laptop Stand
+						p.cta__texto Soporte modular, fabricado en madera aglutinada MDF y diseño personalizado en laser con las distintas especialidades del mercado digital.
+						p.cta__precio $14.790
+							span.cta__adicionales * Llavero de regalo
+							span.cta__adicionales * Despacho GRATIS dentro de Santiago (RM)
+						a.cta__boton(href="javascript:;", target="_blank") lo quiero
+
+				.col-6.offset-1
+					figure.banner__img
+						img(src="./img/macBook-perfil.png", alt="Foto del soporte presentado sobre un notebook")
+	.container
+		.row.no-gutters
+			.col-2
+				p.texto texto  de mi columa
+			.col-4
+				p.texto texto  de mi columa
+			.col-5.offset-1
+				p.texto texto  de mi columa
+	.container
+		.row.no-gutters
+			.col-sm-2
+				p.texto texto  de mi columa
+			.col-sm-4
+				p.texto texto  de mi columa
+			.col-sm-6
+				p.texto texto  de mi columa
 	include templates/footer

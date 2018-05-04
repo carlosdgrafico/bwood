@@ -1,6 +1,7 @@
 const gulp = require ('gulp');
 const webserver = require ('gulp-webserver');
 const imagenes = require ('gulp-imagemin');
+const cache = require ('gulp-cache');
 const sass = require ('gulp-sass');
 const autoprefixer = require ('gulp-autoprefixer');
 const watch = require ('gulp-watch');
@@ -32,6 +33,12 @@ const rutas = {
 }
 
 
+gulp.task('librerias-copy', function(){
+	gulp.src('./app/lib' + '/**' + '/*.*')
+	.pipe(gulp.dest('./dist/lib'))
+});
+
+
 
 gulp.task('pug', function(){
 	gulp.src(rutas.pug.watch)
@@ -61,12 +68,12 @@ gulp.task('concatenar', ['js'], function(){
 
 gulp.task('imagenes', function(){
    gulp.src('./app/img/**/*.{png,jpg,gif,jpeg,svg}')
-   .pipe(imagenes({
-        interlaced: true,
-        progressive: true,
-        optimizationLevel: 2,
-        svgoPlugins: [{removeViewBox: true}]
-   }))
+   .pipe(cache(imagenes({
+      interlaced: true,
+      progressive: true,
+      optimizationLevel: 5,
+      svgoPlugins: [{removeViewBox: true}]
+	})))
    .pipe(gulp.dest('./dist/img/'))
 });
 
@@ -123,7 +130,7 @@ gulp.task('bwood', [
 	'pug',
 	'concatenar',
 	'fonts',
-	'librerias-build',
+	'librerias-copy',
 	'imagenes',
 	'watch'
 

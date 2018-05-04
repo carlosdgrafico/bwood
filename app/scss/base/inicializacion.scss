@@ -35,6 +35,9 @@ p {
 a {
    text-decoration: none;
    display: inline-block;
+	&:hover{
+		text-decoration: none;
+	}
 }
 
 a:active,
