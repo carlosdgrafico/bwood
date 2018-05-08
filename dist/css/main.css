@@ -236,4 +236,12 @@ h1 {
     border: 1px solid #4D4F8E;
     color: #fff; }
 
+/* line 1, app/scss/componentes/historia.scss */
+.historia {
+  background-color: #4D4F8E;
+  padding: 8em 0; }
+  /* line 5, app/scss/componentes/historia.scss */
+  .historia .u-parrafos {
+    opacity: .8; }
+
 /* CLASES DE AYUDA - SIEMPRE AL FINAL */
