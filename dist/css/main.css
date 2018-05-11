@@ -155,71 +155,8 @@ img {
   width: 100%; }
 
 /* COMPONENETES */
-/* line 1, app/scss/componentes/header.scss */
-.header {
-  background-color: #EEEEEE;
-  border-bottom: 1px solid purple; }
-
-/* line 6, app/scss/componentes/header.scss */
-body {
-  background-color: olive;
-  color: #fff; }
-
-/* line 11, app/scss/componentes/header.scss */
-h1 {
-  color: purple;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 400; }
-
-/* line 17, app/scss/componentes/header.scss */
-.texto {
-  color: gray;
-  text-align: center;
-  border: 1px solid #000;
-  background-color: purple; }
-
-/* line 1, app/scss/componentes/banner.scss */
-.banner {
-  background-color: #EEEEEE;
-  color: #6F7577; }
-
-/* line 7, app/scss/componentes/banner.scss */
-.cta__titulo {
-  color: #1D242A;
-  font-size: 48px;
-  font-size: 3rem;
-  line-height: 60px;
-  line-height: 3.75rem;
-  font-weight: 900; }
-
-/* line 13, app/scss/componentes/banner.scss */
-.cta__texto {
-  font-size: 20px;
-  font-size: 1.25rem;
-  line-height: 25px;
-  line-height: 1.5625rem; }
-
-/* line 17, app/scss/componentes/banner.scss */
-.cta__precio {
-  color: #19B99C;
-  font-size: 36px;
-  font-size: 2.25rem;
-  line-height: 45px;
-  line-height: 2.8125rem;
-  font-weight: 600;
-  margin: 1em 0; }
-  /* line 23, app/scss/componentes/banner.scss */
-  .cta__precio span {
-    color: #6F7577;
-    display: block;
-    font-size: 14px;
-    font-size: 0.875rem;
-    line-height: 18px;
-    line-height: 1.125rem;
-    font-weight: 400; }
-
-/* line 31, app/scss/componentes/banner.scss */
-.cta__boton {
+/* line 1, app/scss/componentes/generales.scss */
+.g-boton {
   border: 1px solid #1D242A;
   border-radius: 30px;
   color: #1D242A;
@@ -229,19 +166,126 @@ h1 {
   line-height: 1.125rem;
   padding: 1.5em 7.5em;
   text-transform: uppercase;
-  transition: all ease .3s; }
-  /* line 41, app/scss/componentes/banner.scss */
-  .cta__boton:hover {
+  transition: all ease 0.3s; }
+  /* line 11, app/scss/componentes/generales.scss */
+  .g-boton:hover {
     background-color: #4D4F8E;
     border: 1px solid #4D4F8E;
     color: #fff; }
+
+/* line 18, app/scss/componentes/generales.scss */
+.g-text {
+  color: #6F7577;
+  font-size: 18px;
+  font-size: 1.125rem;
+  line-height: 23px;
+  line-height: 1.4375rem;
+  font-weight: 400;
+  margin: 1em 0; }
+
+/* line 26, app/scss/componentes/generales.scss */
+.g-title {
+  color: #1D242A;
+  font-size: 36px;
+  font-size: 2.25rem;
+  line-height: 45px;
+  line-height: 2.8125rem;
+  font-weight: 700;
+  margin: 0; }
+
+/* line 34, app/scss/componentes/generales.scss */
+.g-highlighted {
+  color: #19B99C;
+  font-size: 36px;
+  font-size: 2.25rem;
+  line-height: 45px;
+  line-height: 2.8125rem;
+  font-weight: 600; }
+  /* line 40, app/scss/componentes/generales.scss */
+  .g-highlighted span {
+    color: #6F7577;
+    display: block;
+    font-size: 14px;
+    font-size: 0.875rem;
+    line-height: 18px;
+    line-height: 1.125rem;
+    font-weight: 400; }
+
+/* line 1, app/scss/componentes/header.scss */
+.header {
+  background-color: #EEEEEE;
+  border-bottom: 1px solid purple;
+  padding: 1em; }
+
+/* line 7, app/scss/componentes/header.scss */
+.logotipo {
+  width: 140px; }
+
+/* line 11, app/scss/componentes/header.scss */
+body {
+  background-color: olive;
+  color: #fff; }
+
+/* line 16, app/scss/componentes/header.scss */
+h1 {
+  color: purple;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400; }
+
+/* line 22, app/scss/componentes/header.scss */
+.texto {
+  color: gray;
+  text-align: center;
+  border: 1px solid #000;
+  background-color: purple; }
+
+/* line 1, app/scss/componentes/banner.scss */
+.banner {
+  background-color: #EEEEEE;
+  padding: 2em 0; }
+
+/* line 6, app/scss/componentes/banner.scss */
+.cta {
+  margin-top: 5em; }
+  /* line 8, app/scss/componentes/banner.scss */
+  .cta__titulo {
+    font-size: 48px;
+    font-size: 3rem;
+    line-height: 60px;
+    line-height: 3.75rem;
+    font-weight: 900;
+    margin-bottom: .5em; }
+  /* line 15, app/scss/componentes/banner.scss */
+  .cta__texto {
+    font-size: 20px;
+    font-size: 1.25rem;
+    line-height: 25px;
+    line-height: 1.5625rem; }
+  /* line 20, app/scss/componentes/banner.scss */
+  .cta__precio {
+    margin: 1em 0; }
 
 /* line 1, app/scss/componentes/historia.scss */
 .historia {
   background-color: #4D4F8E;
   padding: 8em 0; }
   /* line 5, app/scss/componentes/historia.scss */
-  .historia .u-parrafos {
+  .historia .g-text {
+    color: #fff;
     opacity: .8; }
+
+/* line 1, app/scss/componentes/accesos.scss */
+.acceso {
+  background-color: #fff;
+  border-bottom: 1px solid rgba(151, 151, 151, 0.5); }
+  /* line 5, app/scss/componentes/accesos.scss */
+  .acceso .container-fluid {
+    padding: 0; }
+  /* line 9, app/scss/componentes/accesos.scss */
+  .acceso__titulo {
+    margin-bottom: 1em; }
+  /* line 13, app/scss/componentes/accesos.scss */
+  .acceso__boton {
+    margin-top: 2em; }
 
 /* CLASES DE AYUDA - SIEMPRE AL FINAL */

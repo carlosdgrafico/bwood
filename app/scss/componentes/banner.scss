@@ -1,47 +1,23 @@
-.banner{
+.banner {
 	background-color: #EEEEEE;
-	color: #6F7577;
+	padding: 2em 0;
 }
 
-.cta{
-	&__titulo{
-		color: #1D242A;
+.cta {
+	margin-top: 5em;
+	&__titulo {
 		@include font-size(48);
-	   @include line-height(60);
+		@include line-height(60);
 		font-weight: 900;
+		margin-bottom: .5em;
 	}
-	&__texto{
-		@include font-size(20);
-	   @include line-height(25);
-	}
-	&__precio{
-		color: #19B99C;
-		@include font-size(36);
-	   @include line-height(45);
-		font-weight: 600;
-		margin: 1em 0;
-		span{
-			color: #6F7577;
-			display: block;
-			@include font-size(14);
-		   @include line-height(18);
-			font-weight: 400;
-		}
-	}
-	&__boton{
-		border: 1px solid #1D242A;
-		border-radius: 30px;
-		color: #1D242A;
-		@include font-size(13);
-		@include line-height(18);
-		padding: 1.5em 7.5em;
-		text-transform: uppercase;
-		transition: all ease .3s;
 
-		&:hover{
-			background-color: #4D4F8E;
-			border: 1px solid #4D4F8E;
-			color: #fff;
-		}
+	&__texto {
+		@include font-size(20);
+		@include line-height(25);
+	}
+
+	&__precio {
+		margin: 1em 0;
 	}
 }
