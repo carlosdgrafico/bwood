@@ -2,8 +2,8 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900");
 @font-face {
   font-family: 'icomoon';
-  src: url("../fonts/icomoon.eot?kpbxbb");
-  src: url("../fonts/icomoon.eot?kpbxbb#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?kpbxbb") format("truetype"), url("../fonts/icomoon.woff?kpbxbb") format("woff"), url("../fonts/icomoon.svg?kpbxbb#icomoon") format("svg");
+  src: url("../fonts/icomoon.eot?wdy8c");
+  src: url("../fonts/icomoon.eot?wdy8c#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?wdy8c") format("truetype"), url("../fonts/icomoon.woff?wdy8c") format("woff"), url("../fonts/icomoon.svg?wdy8c#icomoon") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -22,72 +22,32 @@
   -moz-osx-font-smoothing: grayscale; }
 
 /* line 27, app/scss/base/icon.scss */
-.icon-add:before {
-  content: "\e90e"; }
-
-/* line 30, app/scss/base/icon.scss */
-.icon-corazon-color:before {
-  content: "\e90f"; }
-
-/* line 33, app/scss/base/icon.scss */
-.icon-emoticon-color:before {
-  content: "\e910"; }
-
-/* line 36, app/scss/base/icon.scss */
-.icon-corazon:before {
+.icon-email:before {
   content: "\e900"; }
 
-/* line 39, app/scss/base/icon.scss */
-.icon-instagram:before {
+/* line 30, app/scss/base/icon.scss */
+.icon-amigo:before {
   content: "\e901"; }
 
-/* line 42, app/scss/base/icon.scss */
-.icon-compras:before {
+/* line 33, app/scss/base/icon.scss */
+.icon-doctor:before {
   content: "\e902"; }
 
-/* line 45, app/scss/base/icon.scss */
-.icon-down:before {
+/* line 36, app/scss/base/icon.scss */
+.icon-estilo:before {
   content: "\e903"; }
 
-/* line 48, app/scss/base/icon.scss */
-.icon-emoticon:before {
+/* line 39, app/scss/base/icon.scss */
+.icon-Facebook:before {
   content: "\e904"; }
 
-/* line 51, app/scss/base/icon.scss */
-.icon-ventas:before {
+/* line 42, app/scss/base/icon.scss */
+.icon-instagram:before {
   content: "\e905"; }
 
-/* line 54, app/scss/base/icon.scss */
-.icon-add_user:before {
+/* line 45, app/scss/base/icon.scss */
+.icon-valor:before {
   content: "\e906"; }
-
-/* line 57, app/scss/base/icon.scss */
-.icon-Facebook:before {
-  content: "\e907"; }
-
-/* line 60, app/scss/base/icon.scss */
-.icon-line_chart:before {
-  content: "\e908"; }
-
-/* line 63, app/scss/base/icon.scss */
-.icon-linkedin:before {
-  content: "\e909"; }
-
-/* line 66, app/scss/base/icon.scss */
-.icon-mapa:before {
-  content: "\e90a"; }
-
-/* line 69, app/scss/base/icon.scss */
-.icon-pie_chart:before {
-  content: "\e90b"; }
-
-/* line 72, app/scss/base/icon.scss */
-.icon-tea:before {
-  content: "\e90c"; }
-
-/* line 75, app/scss/base/icon.scss */
-.icon-Twitter:before {
-  content: "\e90d"; }
 
 /* line 1, app/scss/base/inicializacion.scss */
 html {
@@ -214,7 +174,6 @@ img {
 /* line 1, app/scss/componentes/header.scss */
 .header {
   background-color: #EEEEEE;
-  border-bottom: 1px solid purple;
   padding: 1em; }
 
 /* line 7, app/scss/componentes/header.scss */
@@ -287,5 +246,45 @@ h1 {
   /* line 13, app/scss/componentes/accesos.scss */
   .acceso__boton {
     margin-top: 2em; }
+
+/* line 1, app/scss/componentes/features.scss */
+.features {
+  background-color: #fff;
+  padding: 8em 0;
+  text-align: center; }
+  /* line 6, app/scss/componentes/features.scss */
+  .features .g-text {
+    margin: 1em auto 8em auto;
+    max-width: 50%; }
+
+/* line 13, app/scss/componentes/features.scss */
+.feature-laptop {
+  margin: 0 auto;
+  max-width: 90%; }
+
+/* line 19, app/scss/componentes/features.scss */
+.feature {
+  color: #6F7577;
+  margin: 1em 0 6em 0;
+  text-align: right; }
+  /* line 23, app/scss/componentes/features.scss */
+  .feature--left {
+    text-align: left; }
+  /* line 27, app/scss/componentes/features.scss */
+  .feature__icon {
+    color: #19B99C;
+    font-size: 40px; }
+  /* line 32, app/scss/componentes/features.scss */
+  .feature__title {
+    color: #1D242A;
+    font-size: 24px;
+    font-size: 1.5rem;
+    line-height: 31px;
+    line-height: 1.9375rem;
+    font-weight: 600;
+    margin: .5em 0; }
+  /* line 40, app/scss/componentes/features.scss */
+  .feature__text {
+    opacity: .5; }
 
 /* CLASES DE AYUDA - SIEMPRE AL FINAL */

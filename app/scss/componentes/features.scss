@@ -1,0 +1,43 @@
+.features{
+  background-color: #fff;
+  padding: 8em 0;
+  text-align: center;
+
+  .g-text{
+    margin: 1em auto 8em auto;
+    max-width: 50%;
+  }
+}
+
+
+.feature-laptop{
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+
+.feature{
+  color: $text-color;
+  margin: 1em 0 6em 0;
+  text-align: right;
+  &--left{
+    text-align: left;
+  }
+
+  &__icon{
+    color: $text-highlighted;
+    font-size: 40px;
+  }
+
+  &__title{
+    color: $title-color;
+    @include font-size(24);
+		@include line-height(31);
+    font-weight: 600;
+    margin: .5em 0;
+  }
+
+  &__text{
+    opacity: .5;
+  }
+}
