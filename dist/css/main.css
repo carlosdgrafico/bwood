@@ -169,7 +169,8 @@ img {
     font-size: 0.875rem;
     line-height: 18px;
     line-height: 1.125rem;
-    font-weight: 400; }
+    font-weight: 400;
+    margin-top: .5em; }
 
 /* line 1, app/scss/componentes/header.scss */
 .header {
@@ -179,24 +180,6 @@ img {
 /* line 7, app/scss/componentes/header.scss */
 .logotipo {
   width: 140px; }
-
-/* line 11, app/scss/componentes/header.scss */
-body {
-  background-color: olive;
-  color: #fff; }
-
-/* line 16, app/scss/componentes/header.scss */
-h1 {
-  color: purple;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 400; }
-
-/* line 22, app/scss/componentes/header.scss */
-.texto {
-  color: gray;
-  text-align: center;
-  border: 1px solid #000;
-  background-color: purple; }
 
 /* line 1, app/scss/componentes/banner.scss */
 .banner {
@@ -247,6 +230,28 @@ h1 {
   .acceso__boton {
     margin-top: 2em; }
 
+/* line 20, app/scss/componentes/accesos.scss */
+.acceso--precio {
+  background-color: #F7F9FB;
+  border-top: 1px solid rgba(151, 151, 151, 0.5);
+  margin: 4em 0;
+  overflow: hidden; }
+  /* line 26, app/scss/componentes/accesos.scss */
+  .acceso--precio .acceso__foto {
+    background-image: url(../img/soporte-07.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: #fff;
+    display: inline-block;
+    min-height: 650px;
+    height: auto;
+    width: 100%;
+    vertical-align: middle; }
+  /* line 39, app/scss/componentes/accesos.scss */
+  .acceso--precio .acceso__detalle {
+    padding: 4em 0 4em 2em; }
+
 /* line 1, app/scss/componentes/features.scss */
 .features {
   background-color: #fff;
@@ -262,7 +267,7 @@ h1 {
   margin: 0 auto;
   max-width: 90%; }
 
-/* line 19, app/scss/componentes/features.scss */
+/* line 18, app/scss/componentes/features.scss */
 .feature {
   color: #6F7577;
   margin: 1em 0 6em 0;

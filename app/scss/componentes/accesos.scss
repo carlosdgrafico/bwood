@@ -14,3 +14,30 @@
     margin-top: 2em;
   }
 }
+
+
+
+.acceso--precio{
+  background-color: #F7F9FB;
+  border-top: 1px solid rgba(151,151,151, .5);
+  margin: 4em 0;
+  overflow: hidden;
+
+  .acceso__foto{
+    background-image: url(../img/soporte-07.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: #fff;
+    display: inline-block;
+    min-height: 650px;
+    height: auto;
+    width: 100%;
+    vertical-align: middle;
+  }
+
+  .acceso__detalle{
+    padding: 4em 0 4em 2em;
+  }
+
+}
