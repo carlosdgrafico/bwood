@@ -254,32 +254,31 @@ img {
 
 /* line 1, app/scss/componentes/features.scss */
 .features {
-  background-color: #fff;
   padding: 8em 0;
   text-align: center; }
-  /* line 6, app/scss/componentes/features.scss */
+  /* line 5, app/scss/componentes/features.scss */
   .features .g-text {
     margin: 1em auto 8em auto;
     max-width: 50%; }
 
-/* line 13, app/scss/componentes/features.scss */
+/* line 12, app/scss/componentes/features.scss */
 .feature-laptop {
   margin: 0 auto;
   max-width: 90%; }
 
-/* line 18, app/scss/componentes/features.scss */
+/* line 17, app/scss/componentes/features.scss */
 .feature {
   color: #6F7577;
   margin: 1em 0 6em 0;
   text-align: right; }
-  /* line 23, app/scss/componentes/features.scss */
+  /* line 22, app/scss/componentes/features.scss */
   .feature--left {
     text-align: left; }
-  /* line 27, app/scss/componentes/features.scss */
+  /* line 26, app/scss/componentes/features.scss */
   .feature__icon {
     color: #19B99C;
     font-size: 40px; }
-  /* line 32, app/scss/componentes/features.scss */
+  /* line 31, app/scss/componentes/features.scss */
   .feature__title {
     color: #1D242A;
     font-size: 24px;
@@ -288,8 +287,66 @@ img {
     line-height: 1.9375rem;
     font-weight: 600;
     margin: .5em 0; }
-  /* line 40, app/scss/componentes/features.scss */
+  /* line 39, app/scss/componentes/features.scss */
   .feature__text {
     opacity: .5; }
+
+/* line 1, app/scss/componentes/galeria.scss */
+.galeria {
+  padding: 4em 0;
+  text-align: center; }
+  /* line 5, app/scss/componentes/galeria.scss */
+  .galeria .g-text {
+    margin: 1em auto 8em auto;
+    max-width: 50%; }
+
+/* line 1, app/scss/componentes/contacto.scss */
+.contacto {
+  padding: 6em 0; }
+
+/* line 1, app/scss/componentes/footer.scss */
+.footer {
+  background-color: #1D242A;
+  font-size: 14px;
+  font-size: 0.875rem;
+  line-height: 18px;
+  line-height: 1.125rem;
+  font-weight: 300;
+  margin-top: 10em;
+  padding: 5em 0;
+  text-align: center;
+  /* Este hover es general para los iconos de redes sociales y el link del copy */ }
+  /* line 10, app/scss/componentes/footer.scss */
+  .footer__social {
+    font-size: 20px;
+    font-size: 1.25rem;
+    margin-bottom: 1em; }
+    /* line 14, app/scss/componentes/footer.scss */
+    .footer__social .footer__link {
+      margin: 0 1em; }
+    /* line 18, app/scss/componentes/footer.scss */
+    .footer__social .footer__icon {
+      color: rgba(255, 255, 255, 0.5); }
+  /* line 27, app/scss/componentes/footer.scss */
+  .footer__copy .footer__copy-text {
+    color: rgba(255, 255, 255, 0.5);
+    padding: 0 1em;
+    position: relative; }
+  /* line 33, app/scss/componentes/footer.scss */
+  .footer__copy span.footer__copy-text:after {
+    background-color: rgba(255, 255, 255, 0.5);
+    content: "";
+    display: inline-block;
+    height: 15px;
+    position: absolute;
+    right: 0;
+    top: 2px;
+    width: 1px; }
+  /* line 47, app/scss/componentes/footer.scss */
+  .footer a:hover {
+    color: rgba(255, 255, 255, 0.9); }
+    /* line 49, app/scss/componentes/footer.scss */
+    .footer a:hover span {
+      color: rgba(255, 255, 255, 0.9); }
 
 /* CLASES DE AYUDA - SIEMPRE AL FINAL */

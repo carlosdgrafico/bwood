@@ -1,0 +1,54 @@
+.footer{
+  background-color: $secondary-color;
+  @include font-size(14);
+  @include line-height(18);
+  font-weight: 300;
+  margin-top: 10em;
+  padding: 5em 0;
+  text-align: center;
+
+  &__social{
+    @include font-size(20);
+    margin-bottom: 1em;
+
+    .footer__link{
+      margin: 0 1em;
+    }
+
+    .footer__icon{
+      color: rgba(255,255,255,.5);
+    }
+  }
+
+
+
+  &__copy{
+
+    .footer__copy-text{
+      color: rgba(255,255,255,.5);
+      padding: 0 1em;
+      position: relative;
+    }
+
+    span.footer__copy-text:after{
+      background-color: rgba(255,255,255,.5);
+      content: "";
+      display: inline-block;
+      height: 15px;
+      position: absolute;
+      right: 0;
+      top: 2px;
+      width: 1px;
+    }
+  }
+
+
+  /* Este hover es general para los iconos de redes sociales y el link del copy */
+  a:hover{
+    color: rgba(255,255,255,.9);
+    span{
+      color: rgba(255,255,255,.9);
+    }
+  }
+
+}
