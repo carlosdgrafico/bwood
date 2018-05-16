@@ -158,7 +158,23 @@ body
 					.formulario
 						h2.formulario__title.g-title ¿Interesado? Escríbenos
 						p.formulario__text.g-text Envianos la información que solicita el formulario y un integrante de nuestro equipo, se comunicara contigo para gestionar el pago y entrega del producto.
-					
-					
-
+						form
+							.row
+								.col-6
+									input(type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nombre")
+								.col-6
+									input(type="email" class="form-control" id="exampleFormControlInput1" placeholder="Teléfono")
+								.col-12
+									input(type="email" class="form-control" id="exampleFormControlInput1" placeholder="Correo electrónico")
+								.col-6
+									input(type="email" class="form-control" id="exampleFormControlInput1" placeholder="Diseño")
+								.col-6
+									select(class="form-control" id="exampleFormControlSelect1")
+										option Cantidad 
+										option 1 
+										option 2 
+										option 3 
+										option otra cantidad
+							button.g-boton(type="submit") Enviar
+									
 	include templates/footer
