@@ -42,4 +42,13 @@
       border: 1px solid $secondary-color;
     }
   }
+
+  .form-control:focus {
+    border-color:  #4D4F8E;
+    box-shadow: none;
+  }
+
+  button:focus{
+    outline: none;
+  }
 }

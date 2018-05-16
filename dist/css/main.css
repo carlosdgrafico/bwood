@@ -352,6 +352,15 @@ img {
     background-color: #1D242A;
     border: 1px solid #1D242A; }
 
+/* line 46, app/scss/componentes/contacto.scss */
+.formulario .form-control:focus {
+  border-color: #4D4F8E;
+  box-shadow: none; }
+
+/* line 51, app/scss/componentes/contacto.scss */
+.formulario button:focus {
+  outline: none; }
+
 /* line 1, app/scss/componentes/footer.scss */
 .footer {
   background-color: #1D242A;
